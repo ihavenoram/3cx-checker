@@ -1,0 +1,18 @@
+# Everything the tool writes describes a real site: public IPs, extensions,
+# phone numbers, blacklist entries. Keep it out of any repository.
+Output/
+3CX-Check_*.csv
+3CX-Report_*.json
+3CX-Report-*.html
+3CX-Checker-probe_*.txt
+
+# PBX extracts you import on the Security tab.
+event_logs*.csv
+ip_blacklist*.json
+
+# A copied 3CX SBC folder: 3cxsbc.conf holds the tunnel password and the
+# provisioning link's auth key.
+3CXSBC/
+3cxsbc.conf*
+*.log
+*.log.mon

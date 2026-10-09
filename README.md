@@ -60,7 +60,7 @@ Nothing answers on 3CX's RTP range outside a call, so the media figures are meas
 ## Notes
 
 - Windows PowerShell 5.1 only. Optional: PuTTY's `plink` (0.77+, and only if validly signed) for capturing SSH command output. Windows' own `ssh.exe` covers the terminal.
-- Everything the tool writes describes a real site, so it all lands in `Output\` and the included `.gitignore` keeps it out of repositories.
+- Everything the tool writes describes a real site, so it all lands in `Output\`. Keep that folder out of anything you share or commit (the repository's `.gitignore` already does).
 - Not affiliated with or endorsed by 3CX or Yealink. The names are used only to say what the tool works with.
 
 ## About

@@ -8,10 +8,10 @@ From [ihavenoram.com](https://ihavenoram.com): field notes for ADHD techs runnin
 
 ## Download
 
-Grab the latest zip from **[Releases](../../releases/latest)**. The SHA-256 checksum is in the release notes and in the `.sha256` file beside the zip:
+Grab **`3cx.zip`** from **[Releases](../../releases/latest)**. It holds one folder, `3cx\`, with only what runs: the scripts and a `.cmd` launcher for each. Copy that folder to the PC or server (for example `C:\temp\3cx`); this README and the docs stay here on GitHub. The SHA-256 checksum is in the release notes and in the `.sha256` file beside the zip:
 
 ```powershell
-Get-FileHash .\3CX-Checker.zip -Algorithm SHA256
+Get-FileHash .\3cx.zip -Algorithm SHA256
 ```
 
 ## Run it
@@ -55,6 +55,7 @@ Nothing answers on 3CX's RTP range outside a call, so the media figures are meas
 | `3CX-Checker.ps1` | The GUI and background worker |
 | `3CX-Checker.Helpers.ps1` | Every network test, shared by the GUI and the worker |
 | `Generate-3cxReport.ps1` | Turns an exported JSON report into an HTML site report |
+| `Launch-Generate-3cxReport.cmd` | Opens the report generator |
 | `docs/TECHNICAL.md` | The full reference |
 
 ## Notes

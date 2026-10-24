@@ -1,4 +1,6 @@
-﻿<#
+﻿# 3CX Desk-Phone Checker 1.0.1 - https://ihavenoram.com - https://github.com/ihavenoram/3cx-checker
+# MIT licence, (c) 2026 ihavenoram.com. If you publish something built on this, please credit ihavenoram.com.
+<#
     3CX Desk-Phone Connectivity Checker (WinForms)
     ------------------------------------------------
     Interactive on-site tool for Windows PowerShell 5.1.
